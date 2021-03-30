@@ -9,7 +9,7 @@ void TabellPaSkarmen( double kapital, int antalAr   )
 {
 	int ar ;
 
-	printf("\n èr     Saldo\n ==     =====\n");
+	printf("\n ÔøΩr     Saldo\n ==     =====\n");
 	for ( ar = 1; ar <= antalAr; ar++ ) {
 		kapital = NastaAr( kapital );
 		
@@ -24,6 +24,7 @@ void TabellPaSkarmen( double kapital, int antalAr   )
 			printf("%3d%11.2f kkr\n", ar, (ABS( kapital ))/1000);
 
 	}
+	printf("TEEEEEEEEEST");
 	
 	return;
 }
