@@ -13,6 +13,7 @@ void Kalkylator( void )         /* Enkel kalkylator */
 	printf( "A, avslutar\n");
     printf( "A, avslutar\n");
     printf( "A, avslutar\n");
+    printf( "A, avslutar\n");
 	while (printf("-->"), scanf("%f%c%f", &x, &c, &y ) == 3) {
       switch(c)
       {
