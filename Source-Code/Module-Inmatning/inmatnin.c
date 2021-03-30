@@ -8,6 +8,7 @@ void Inmatning( double* kapitalPek, int* antalArPek ){
 	printf("\nPositivt kapital r„knar fram†t i tiden.");
 	printf("\nNegativt kapital r„knar bak†t i tiden.");
 	printf("\n\nInsatt kapital och antal †r ?(-->(+/-)1000 10)--> ");
+	printf("tom rad här, inlagt som test");
 	scanf("%lf%d", kapitalPek, antalArPek);
 
 	return;
