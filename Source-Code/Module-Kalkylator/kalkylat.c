@@ -10,6 +10,8 @@ void Kalkylator( void )         /* Enkel kalkylator */
 
 	printf( "\nKalkylator som klarar de fyra r�knes�tten t ex 3+2\n");
 	printf( "A, avslutar\n");
+    printf( "A, avslutar\n");
+    printf( "A, avslutar\n");
 	while (printf("-->"), scanf("%f%c%f", &x, &c, &y ) == 3) {
       switch(c) {
          case '+':
