@@ -13,7 +13,7 @@ int main( void ) {
 		Inmatning( &kapital, &antalAr );
 		TabellPaSkarmen( kapital, antalAr );
 
-		printf("\n™nskas kalkylator? ( j/n ) --> ");
+		printf("\nï¿½nskas kalkylator? ( j/n ) --> ");
 		scanf(" %c", &kalkylera );
 		if ( kalkylera == 'j' || kalkylera == 'J' )
 			Kalkylator();
@@ -21,6 +21,7 @@ int main( void ) {
 		printf("\nUpprepa programmet? (j/n) --> ");
 		scanf(" %c", &upprepa);
  	} 
+	printf("hej hej");
 	printf("\nSLUT");
 
 	return 0;
